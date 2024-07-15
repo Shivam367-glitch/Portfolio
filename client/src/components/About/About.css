@@ -1,0 +1,70 @@
+.about_container {
+  min-height: 85vh;
+  width: 100vw;
+  padding: -10px;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.main_container .summary_container .about_text{
+  text-align: justify;
+  line-height: 35px;
+  word-spacing: 8px;
+  font-size: 18px;
+}
+
+.skills_container {
+  /* overflow: auto; */
+  height: auto;
+  background-color: rgb(250, 248, 248);
+}
+
+.skills {
+  transition: transform 0.3s ease;
+}
+
+.skills:hover {
+  transform: scale(1.1);
+}
+
+.Education_container {
+  background-color: #d9c9c9;
+}
+
+
+
+.w-18{
+  width:18 rem;
+  margin-top: 12px;
+}
+
+
+@media (max-width:375px) {
+  .Education_container .odd{
+      font-size: 4vw;
+     
+  }
+}
+
+
+a.custom_link {
+  color: rgb(143, 143, 145); 
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 145) ;
+  background-color:white;
+}
+
+a.custom_link:hover {
+  background-color: white !important;
+  border-bottom: 2px solid rgb(85, 166, 65);
+}
