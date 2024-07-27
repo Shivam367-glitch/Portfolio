@@ -4,6 +4,7 @@
     position: relative;
     bottom: 0; 
     padding-bottom: 10px;
+
 } 
 .footer .first,.second,.third{ 
     width: 300px;
@@ -32,4 +33,5 @@
 .pointer:hover::before{
     width: 100%;
 }
+
 

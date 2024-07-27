@@ -1,14 +1,15 @@
 export const projects=[
+
     {
         Name:"Mern Stack Crud",
         Live:"https://app-cruds.netlify.app/", 
         Github:"https://app-cruds.netlify.app/", 
         imageSrc:"crud.png"
-    },
+    }, 
     {
-        Name:"Shopping Cart",
+        Name:"Shopping Cart", 
         Live:"https://shopncart.vercel.app/", 
-        Github:"https://github.com/Shivam367-glitch/Shopping-Cart", 
+        Github:"https://github.com/Shivam367-glitch/Shopping-Cart/", 
         imageSrc:"cart.png"
     },
     {
@@ -23,11 +24,6 @@ export const projects=[
         Github:"https://github.com/Shivam367-glitch/Daily-Quote", 
         imageSrc:"Quotes.png"
 
-    }, 
-    {
-        Name:"Notes Taker", 
-        Live:"https://notetaker.w3spaces.com/", 
-        Github:"https://github.com/Shivam367-glitch/Note", 
-        imageSrc:"Notes.jpeg"
-    },
+    }
+
 ]

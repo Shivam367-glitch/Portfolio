@@ -12,7 +12,6 @@ const Resume = () => {
   };
   return (
     <div >
-   
       <Container className='d-flex flex-column justify-content-around mt-3'>
         <Row className='text-center'>
           <Col xs={6} className='text-center'>

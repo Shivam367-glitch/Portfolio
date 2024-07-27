@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .name-letter{
     color: #6c63ff;
 }
@@ -22,6 +23,9 @@
         text-align: "justify"
 
 }
+=======
+
+>>>>>>> ca115708e1aad62b5b5acf74bd365de87a87bb6a
 .home_container .home_innerdiv .left_div{
     margin-top: 25vh;
     max-width: 430px

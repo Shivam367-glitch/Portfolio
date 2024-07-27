@@ -7,7 +7,9 @@ import { formInitialState,FormField } from "../../utility";
 
 
 function Contact() {
+
   const apiUrl = process.env.REACT_APP_API_URL;
+
   const [data, setData] = useState(formInitialState);
   const [loading, setLoading] = useState(false);
 
@@ -78,6 +80,7 @@ function Contact() {
       setLoading(true);
 
       try {
+
         const res = await fetch(`${apiUrl}/register`, {
           method: "POST",
           headers: {
@@ -85,7 +88,9 @@ function Contact() {
           },
           body: JSON.stringify({ FirstName, LastName, Email, Phone, Message })
         });
+
         const receiver = await res.json();
+
         if (receiver.status === 201) {
           toast.success("Message sent successfully");
         } else {
@@ -123,6 +128,7 @@ function Contact() {
               />
             </Form.Group>
             <Form.Group className="mb-3">
+
             <Button
                 type="submit"
                 className="col-lg-2 "
@@ -131,6 +137,7 @@ function Contact() {
                 variant="outline-success"
               >
                 {loading ?  <div className="spinner-border text-light" role="status"></div>: "Submit"}
+
               </Button>
             </Form.Group>
           </Form>

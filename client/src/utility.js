@@ -10,11 +10,19 @@ export const handles = [
       href: "https://twitter.com/Shivamm3213",
       iconName: "fa fa-twitter fa-fw text-white"
     }, {
+<<<<<<< HEAD
       href: "http://github.com/Shivam367-glitch/",
       iconName: "fa fa-github fa-fw text-white"
     }, {
       href: "mailto:txt2shivam@gmail.com",
       iconName: "fa fa-envelope fa-fw text-white"
+=======
+      href: "https://m.facebook.com/profile.php?id=100011628730183",
+      iconName: "fa fa-facebook fa-fw text-white"
+    }, {
+      href: "https://www.instagram.com/txt2shivam",
+      iconName: "fa fa-instagram fa-fw text-white"
+>>>>>>> ca115708e1aad62b5b5acf74bd365de87a87bb6a
     }
   ]
 
@@ -45,9 +53,15 @@ export const handles = [
     }
   ]
 
+<<<<<<< HEAD
 export const formInitialState = {FirstName: "",LastName: "",Email: "",Phone: "",Message: ""}
 
 export function FormField(props) {
+=======
+ export const formInitialState = {FirstName: "",LastName: "",Email: "",Phone: "",Message: ""}
+
+  export function FormField(props) {
+>>>>>>> ca115708e1aad62b5b5acf74bd365de87a87bb6a
     return (
       <Form.Group className={props.className} controlId={props.name}>
        <Form.Control
@@ -65,7 +79,11 @@ export function FormField(props) {
   }
 
 
+<<<<<<< HEAD
 export const Educations = [
+=======
+  export const Educations = [
+>>>>>>> ca115708e1aad62b5b5acf74bd365de87a87bb6a
     {
       degree: `Bachelor's Degree`,
       year: '2019-2023',
